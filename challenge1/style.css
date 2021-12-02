@@ -55,10 +55,3 @@
 i {
   color: #585858;
 }
-
-@media only screen and (max-width: 600px) {
-  .circle {
-    height: 200px;
-    width: 200px;
-  }
-}

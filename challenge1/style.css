@@ -55,3 +55,20 @@
 i {
   color: #585858;
 }
+
+@media only screen and (max-width: 600px) {
+  .circle {
+    height: 200px;
+    width: 200px;
+  }
+  .timer {
+    margin-top: 10px;
+    font-size: 70px;
+  }
+  .start {
+    font-size: 7px;
+  }
+  .icon {
+    display: none;
+  }
+}

@@ -27,4 +27,38 @@
     #17171a 100%
   );
   box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.timer {
+  font-size: 250px;
+  font-weight: lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.start {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+  font-family: 'Montserrat', sans-serif;
+}
+/* i {
+  background: #585858;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+.icon {
+  margin-top: 30px;
+}
+i {
+  color: #585858;
+}
+
+@media only screen and (max-width: 600px) {
+  .circle {
+    height: 200px;
+    width: 200px;
+  }
 }

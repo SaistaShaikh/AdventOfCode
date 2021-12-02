@@ -58,17 +58,16 @@ i {
 
 @media only screen and (max-width: 600px) {
   .circle {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   }
   .timer {
-    margin-top: 10px;
-    font-size: 70px;
+    font-size: 90px;
   }
   .start {
-    font-size: 7px;
+    font-size: 12px;
   }
   .icon {
-    display: none;
+    font-size: 15px;
   }
 }
